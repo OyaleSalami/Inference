@@ -5,6 +5,7 @@
     <RootNamespace>Inference</RootNamespace>
     <ImplicitUsings>disable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <OutputType>Library</OutputType>
   </PropertyGroup>
 
 </Project>

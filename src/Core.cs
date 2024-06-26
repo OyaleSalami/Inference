@@ -1,23 +1,21 @@
-﻿namespace Inference
+﻿using System.Collections.Generic;
+
+namespace Inference
 {
-    public class AIAgent
+    class Core
     {
-        public string mName { get; set; }
-        public string mGuid { get; }
+        WorldState worldState { get; }
+        public static Dictionary<string, Agent> agents;
 
-        public AIAgent(string name)
+        public static bool RegisterAgent(string name)
         {
-            //TODO : Assign the Guid for the AI agent
-            mName = name;
+
+            return false; //Return the GUID for the agent
         }
 
-        public static AIAgent GetById(string id)
+        private static string GenerateAgentId()
         {
-            return null;
-        }
-        public static AIAgent GetByName(string name)
-        {
-            return null;
+            return ""; //Return the GUID for the agent
         }
     }
 }

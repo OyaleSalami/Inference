@@ -1,0 +1,6 @@
+﻿namespace Inference
+{
+    class World
+    {
+    }
+}
